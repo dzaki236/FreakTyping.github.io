@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./FreakTyping.css">
+    <link rel=stylesheet" href="./FreakTyping.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,7 +24,7 @@
 
         .textarea textarea {
             resize: none;
-
+            overflow: hidden;
         }
     </style>
     <title>Hello, world!</title>
@@ -47,18 +47,48 @@
                 <p class="h3">"Make your auto typing on your <span class="start">page</span>"</p>
                 <h2><span id="start">page</span></h2>
             </div>
+
             <h1>Apa itu FreakTyping?</h1>
             <p>FreakTyping adalah library open source yang di buat dengan kombinasi jquery,yang berfungsi membuat effect
                 seperti mengetik
             </p>
-
+            <hr>
             <h1>Documentation</h1>
-            <h5>1.Start with span</h5>
-            <p>Mulai dengan tag</p>
-            <div class="textarea">
-                <textarea name="" id="myInput2" cols="30" rows="10" readonly>anjay keren< bang</textarea></div>
-            <button onclick="myFunction()">Copy text</button>
 
+            <h5>1.Start with span</h5>
+            <p>Mulai dengan tag <code lang="html">span</code></p>
+            <div class="textarea">
+                <textarea class="bg-light border-none" id="myInput2" cols="120" rows="5" readonly>
+
+                    <h1>
+                        <span id="selector"></span>
+                    </h1>
+
+                </textarea>
+            </div>
+            <button onclick="myFunction()">Copy text</button>
+            <br>
+            <div class="starting mt-4">
+                <h2>Kegunaan</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tag</th>
+                            <th scope="col">kegunaan/function</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Span</td>
+                            <td>Membungkus element tulisan pada effect tulisan</td>
+                        </tr>
+                        <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <script>
                 function myFunction() {
                     var copyText = document.getElementById("myInput2");
@@ -74,7 +104,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <!-- Library -->
-    <script src="./FreakTyping.js"></script>
+    <script src="https://raw.githubusercontent.com/dzaki236/FreakTyping.github.io/master/FreakTyping.js"></script>
     <script>
         $(function TypedStart() {
             $(".start").typed({
