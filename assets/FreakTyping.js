@@ -1,4 +1,4 @@
-/*// Author Dzaki Ahnaf Zulfikar
+// Author Dzaki Ahnaf Zulfikar
 // modifikasi an dari typerwrite jquery
 // Yeah make jquery boi
 ! function ($) {
@@ -443,4 +443,4 @@
 //Speed 
 var fast = 50;
 var normal = 100;
-var slow = 350;*/
+var slow = 350;
