@@ -1,6 +1,7 @@
 // Author Dzaki Ahnaf Zulfikar
 // modifikasi an dari typerwrite jquery
-// Yeah make jquery boi
+// this need jquery
+// Yeah make jquery boi!
 ! function ($) {
 
     "use strict";
