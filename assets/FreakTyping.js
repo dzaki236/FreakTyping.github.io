@@ -444,4 +444,4 @@
 //Speed 
 var fast = 50;
 var normal = 100;
-var slow = 350;
+var slow = 10;
